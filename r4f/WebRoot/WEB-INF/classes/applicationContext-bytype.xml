@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  - Root application context for the Countries application.
+  - Web-specific beans are defined in "countries-servlet.xml".
+  -->
+<beans xmlns="http://www.springframework.org/schema/beans"
+	     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	     xmlns:aop="http://www.springframework.org/schema/aop"
+	     xmlns:tx="http://www.springframework.org/schema/tx"
+	     xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.0.xsd
+           http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.0.xsd
+           http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.0.xsd"
+           default-autowire="byType"
+           >
+	<!-- 按照类型自动装配
+	<bean id="bean2" class="com.chinasofti.bean.Bean2">
+		<property name="age" value="10"></property>
+	</bean>
+	<bean id="bean3" class="com.chinasofti.bean.Bean3">
+		<property name="name" value="zhangsan"></property>
+	</bean>
+	<bean id="bean" class="com.chinasofti.bean.Bean1"></bean> -->
+</beans>
